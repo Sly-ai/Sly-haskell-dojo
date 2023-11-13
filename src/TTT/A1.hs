@@ -3,7 +3,7 @@ module TTT.A1 where
 import Data.Char (toUpper)
 
 -- Q#01
-_SIZE_ = 5 :: Int
+_SIZE_ :: Int
 _SIZE_ = 5
 
 -- Q#02
