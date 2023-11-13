@@ -3,11 +3,11 @@ module TTT.A1 where
 import Data.Char (toUpper)
 
 -- Q#01
-
-_SIZE_ = undefined
+_SIZE_ = 5 :: Int
+_SIZE_ = 5
 
 -- Q#02
-
+_DISPLAY_LOGO_ :: Char
 _DISPLAY_LOGO_ = undefined
 
 -- Q#03
