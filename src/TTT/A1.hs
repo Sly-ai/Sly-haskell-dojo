@@ -7,8 +7,8 @@ _SIZE_ :: Int
 _SIZE_ = 5
 
 -- Q#02
-_DISPLAY_LOGO_ :: Char
-_DISPLAY_LOGO_ = undefined
+_DISPLAY_LOGO_ :: Bool
+_DISPLAY_LOGO_ = True || False
 
 -- Q#03
 
