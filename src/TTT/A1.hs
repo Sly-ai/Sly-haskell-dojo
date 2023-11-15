@@ -14,7 +14,11 @@ d = _DISPLAY_LOGO_
 
 -- Q#03
 convertRowIndex :: Char
-convertRowIndex = 'g'
+convertRowIndex = undefined
+
+b = toUpper convertRowIndex
+
+c = fromEnum b
 
 f = fromEnum (toUpper convertRowIndex) - 65
 
