@@ -1,6 +1,6 @@
 module Sandbox where
 
-
+import Data.List
 main = putStrLn "Hello Haskell!"
 
 addEx = 5 + 4
@@ -56,3 +56,6 @@ listTimes5 = [x * 5 | x<-[1..10], x * 5 <=40]
 
 divisBy9N13 = [x| x <- [1..400],mod x 13 == 0, mod x 9 == 0]
 
+secondNewList = 9:22:3:89:5:[]
+
+sortedList = sort secondNewList

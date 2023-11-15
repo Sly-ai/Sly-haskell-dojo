@@ -4,15 +4,19 @@ import Data.Char (toUpper)
 
 -- Q#01
 _SIZE_ :: Int
-_SIZE_ = 5
+_SIZE_ = 3
+s = _SIZE_ + 1
 
 -- Q#02
 _DISPLAY_LOGO_ :: Bool
 _DISPLAY_LOGO_ = True || False
+d = _DISPLAY_LOGO_
 
 -- Q#03
+convertRowIndex :: Char
+convertRowIndex = 'g'
 
-convertRowIndex = undefined
+f = fromEnum (toUpper convertRowIndex) - 65
 
 -- Q#04
 
