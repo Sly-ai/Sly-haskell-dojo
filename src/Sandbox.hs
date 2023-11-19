@@ -52,7 +52,7 @@ many4s = replicate 5 4
 cycleList = 10 `take` (cycle newList)
 
 listTimes3 = [x * 3 | x<-[1..10]]
-listTimes5 = [x * 5 | x<-[1..10], x * 5 <=40]
+listTimes5Less40 = [x * 5 | x<-[1..10], x * 5 <=40]
 
 divisBy9N13 = [x| x <- [1..400],mod x 13 == 0, mod x 9 == 0]
 
