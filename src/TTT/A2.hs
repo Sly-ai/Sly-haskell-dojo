@@ -4,8 +4,8 @@ import Data.List (intercalate)
 import TTT.A1
 
 -- Q#01
-
-promptPlayer = undefined
+promptPlayer :: Player -> string
+promptPlayer player = undefined
 
 -- Q#02
 
